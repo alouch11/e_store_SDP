@@ -119,10 +119,10 @@ PODS:
   - flutter_inappwebview_ios (0.0.1):
     - Flutter
     - flutter_inappwebview_ios/Core (= 0.0.1)
-    - OrderedSet (~> 6.0.3)
+    - OrderedSet (~> 5.0.0)
   - flutter_inappwebview_ios/Core (0.0.1):
     - Flutter
-    - OrderedSet (~> 6.0.3)
+    - OrderedSet (~> 5.0.0)
   - flutter_keyboard_visibility (0.0.1):
     - Flutter
   - flutter_local_notifications (0.0.1):
@@ -222,7 +222,7 @@ PODS:
     - Flutter
   - open_file_plus (1.0.0):
     - Flutter
-  - OrderedSet (~> 6.0.3)
+  - OrderedSet (~> 5.0.0)
   - package_info_plus (0.4.5):
     - Flutter
   - path_provider_foundation (0.0.1):
