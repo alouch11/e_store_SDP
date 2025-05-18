@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_spareparts_store/basewidget/show_custom_snakbar.dart';
 import 'package:flutter_spareparts_store/features/auth/controllers/auth_controller.dart';
 import 'package:flutter_spareparts_store/features/lines/domain/model/machines_model.dart';
-import 'package:flutter_spareparts_store/features/pdf/pdf_viewer.dart';
+//import 'package:flutter_spareparts_store/features/pdf/pdf_viewer.dart';
 import 'package:flutter_spareparts_store/features/profile/provider/profile_provider.dart';
 import 'package:flutter_spareparts_store/localization/language_constrants.dart';
 import 'package:flutter_spareparts_store/features/splash/provider/splash_provider.dart';
@@ -168,7 +168,7 @@ class _MachineTechnicalDocWidgetState extends State<MachineTechnicalDocWidget> {
                                             child: InkWell(onTap : () async { if(userauthlevel!.contains(widget.machineTechnicalDocList !.machinedocitems![index].catalogueAuth) ){
                                                     if(Provider.of<AuthController>(context, listen: false).isLoggedIn()){
 
-                                                         Navigator.push(
+                                                        /* Navigator.push(
                                                          context, MaterialPageRoute<dynamic>(
                                                          builder: (_) => PDFViewer(
                                                          url: '${Provider.of<SplashProvider>(context, listen: false).baseUrls!.machineCataloguesUrl}/'
@@ -178,7 +178,7 @@ class _MachineTechnicalDocWidgetState extends State<MachineTechnicalDocWidget> {
                                                            title: '${widget.machineTechnicalDocList !.machinedocitems![index].catalogueTitle}',
                                                          ),
                                                          ),
-                                                         );
+                                                         );*/
                                                          }
                                                          }
                                                          else
