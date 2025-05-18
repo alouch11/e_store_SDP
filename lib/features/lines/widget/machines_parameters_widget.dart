@@ -3,7 +3,7 @@ import 'package:flutter_spareparts_store/basewidget/show_custom_snakbar.dart';
 import 'package:flutter_spareparts_store/features/auth/controllers/auth_controller.dart';
 import 'package:flutter_spareparts_store/features/lines/domain/model/machines_model.dart';
 import 'package:flutter_spareparts_store/features/lines/widget/machine_parameters_details_screen.dart';
-import 'package:flutter_spareparts_store/features/pdf/pdf_viewer.dart';
+//import 'package:flutter_spareparts_store/features/pdf/pdf_viewer.dart';
 import 'package:flutter_spareparts_store/features/product/domain/model/product_details_model.dart';
 import 'package:flutter_spareparts_store/features/profile/provider/profile_provider.dart';
 import 'package:flutter_spareparts_store/localization/language_constrants.dart';
