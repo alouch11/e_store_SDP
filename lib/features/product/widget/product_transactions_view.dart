@@ -10,7 +10,7 @@ import 'package:flutter_spareparts_store/utill/images.dart';
 import 'package:provider/provider.dart';
 import '../../../basewidget/show_custom_snakbar.dart';
 import '../../profile/provider/profile_provider.dart';
-import '../../search/widget/qrcode.dart';
+//import '../../search/widget/qrcode.dart';
 import '../view/product_transactions_screen.dart';
 import '../view/product_transactions_screen.dart';
 import 'dropdown_search.dart';
