@@ -72,7 +72,7 @@ dependencies:
   webview_flutter_wkwebview: ^3.9.4
   sqflite: 2.2.7
   just_audio: ^0.9.36
-  file_picker: ^6.2.1
+  file_picker: ^8.1.4
   external_app_launcher: ^4.0.0
   mobile_scanner: ^7.0.0
   simple_barcode_scanner: ^0.1.1
